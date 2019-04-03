@@ -2,7 +2,7 @@ const fs = require('fs');
 var path = require('path')
 
 const files = []
-const theDirectory = 'org-configurations';
+const theDirectory = './orgConfigurations';
 fs.readdirSync(theDirectory).forEach((file) => {
     if (file !== 'config.json' && path.extname(file) === ".json") {
         var data = fs.readFileSync(`${theDirectory}/${file}`).toString();
@@ -15,7 +15,7 @@ fs.readdirSync(theDirectory).forEach((file) => {
     }
 })
 
-fs.writeFile(`${theDirectory}/config.json`, JSON.stringify(files), function (err) {
+fs.writeFile(`src/config.json`, JSON.stringify(files), function (err) {
     if (err) {
         return console.error(err);
     }

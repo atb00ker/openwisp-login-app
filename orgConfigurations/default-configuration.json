@@ -1,0 +1,29 @@
+{
+    "name": "default-name",
+    "slug": "default-slug",
+    "assetDir": "default/",
+    "header": {
+        "leftSection": {},
+        "rightSection": {
+            "links": [
+                {
+                    "text": "example",
+                    "url": "www.example.com"
+                },
+                {
+                    "text": "Example2",
+                    "url": "www.example2.com"
+                }
+            ]
+        }
+    },
+    "loginForm": {
+        "loginApi": "http://example.com/api/v1/obtain-auth-token",
+        "privacyPolicy": "http://example.com/privacy",
+        "termsAndConditions": "http://example.com/tnc",
+        "mail": "example@mail.com",
+        "facebook": "https://facebook.com/example",
+        "twitter": "https://twitter.com/example",
+        "helpDesk": "+123456789"
+    }
+}

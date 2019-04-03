@@ -1,0 +1,33 @@
+{
+    "name": "Information Management Group",
+    "slug": "IMG",
+    "assetDir": "img/",
+    "header": {
+        "leftSection": {},
+        "rightSection": {
+            "links": [
+                {
+                    "text": "blogs",
+                    "url": "https://img.channeli.in/blog"
+                },
+                {
+                    "text": "projects",
+                    "url": "https://img.channeli.in/project"
+                },
+                {
+                    "text": "contact us",
+                    "url": "https://img.channeli.in/contact"
+                }
+            ]
+        }
+    },
+    "loginForm": {
+        "loginApi": "http://127.0.0.1:8000/api/v1/user-token/img/",
+        "privacyPolicy": "http://img.com/privacy",
+        "termsAndConditions": "http://img.com/tnc",
+        "email": "mail_img@mail.com",
+        "facebook": "https://facebook.com/imgIITR",
+        "twitter": "https://twitter.com/example",
+        "helpDesk": "+987654321"
+    }
+}
